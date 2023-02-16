@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html,
+body{
+    padding-top: 5rem;
+    background-color: #000;
+    font-size: "manrope", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(./assets/rocket-coffee.png), url(./assets/blur-1.png), url(./assets/blur-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom left, bottom right;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 918px;
+    margin: auto;
+}
+
+header ul{
+    display: flex;
+}
+
+header li a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+    padding-inline: 2rem;
+}
+
+header .get-coffee{
+    width: 172px;
+    height: 37px;
+    border: 1px solid #8257e5;
+    background-color: transparent;
+    border-radius: 0.06rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 800;
+    font-family: "manrope", sans-serif;
+}
